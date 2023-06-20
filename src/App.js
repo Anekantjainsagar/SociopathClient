@@ -42,6 +42,9 @@ const App = () => {
           } else {
             history(location.pathname);
           }
+        } else {
+          alert("Token expired");
+          localStorage.clear();
         }
       });
     } else {
