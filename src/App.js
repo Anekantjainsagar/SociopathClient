@@ -31,6 +31,7 @@ const App = () => {
     });
   };
 
+  
   const checkUser = () => {
     const token = localStorage.getItem("token");
     if (token) {
