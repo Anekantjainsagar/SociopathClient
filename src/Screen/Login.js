@@ -4,6 +4,9 @@ import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
 import axios from "axios";
 import { LOGIN_URI } from "../Utils/index";
 
+import people from "../img/people.png";
+import logoText from "../img/logoText.png";
+
 const Login = ({ checkUser }) => {
   const [user, setUser] = useState({
     email: "",
@@ -12,10 +15,10 @@ const Login = ({ checkUser }) => {
   const [showPass, setShowPass] = useState(true);
   const history = useNavigate();
   return (
-    <div className="bg-navyBlue h-[90vh] flex pb-14">
+    <div className="bg-navyBlue h-[90vh] flex pb-14 overflow-y-hidden">
       <div className="flex justify-center items-center flex-col w-1/2 mb-10">
-        <img src="/people.png" className="w-2/12" alt="" />
-        <img src="/logoText.png" alt="" className="mt-2" />
+        <img src={people} className="w-2/12" alt="" />
+        <img src={logoText} alt="" className="mt-2" />
         <p className="text-grey text-xl font-semibold mt-1 flex">
           Create Learn and Engage
         </p>

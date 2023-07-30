@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/SociopathClient/static/css/main.10eb3f2c.css",
-    "main.js": "/SociopathClient/static/js/main.d1cf5b73.js",
+    "main.css": "/SociopathClient/static/css/main.e2f01c54.css",
+    "main.js": "/SociopathClient/static/js/main.87162f49.js",
+    "static/media/logo.png": "/SociopathClient/static/media/logo.9d9fa9c47ff9aac94951.png",
+    "static/media/logoText.png": "/SociopathClient/static/media/logoText.2192fdbda97560a1b825.png",
+    "static/media/playground.png": "/SociopathClient/static/media/playground.59146bb66b3c589b001f.png",
     "index.html": "/SociopathClient/index.html",
-    "main.10eb3f2c.css.map": "/SociopathClient/static/css/main.10eb3f2c.css.map",
-    "main.d1cf5b73.js.map": "/SociopathClient/static/js/main.d1cf5b73.js.map"
+    "main.e2f01c54.css.map": "/SociopathClient/static/css/main.e2f01c54.css.map",
+    "main.87162f49.js.map": "/SociopathClient/static/js/main.87162f49.js.map"
   },
   "entrypoints": [
-    "static/css/main.10eb3f2c.css",
-    "static/js/main.d1cf5b73.js"
+    "static/css/main.e2f01c54.css",
+    "static/js/main.87162f49.js"
   ]
 }

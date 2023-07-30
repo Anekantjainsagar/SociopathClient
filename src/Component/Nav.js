@@ -1,13 +1,14 @@
-import React, { useContext, useEffect, useRef, useState } from "react";
+import React, { useContext, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
 import { AiOutlineMessage, AiOutlineSearch } from "react-icons/ai";
 import { FiSettings } from "react-icons/fi";
 import { IoIosNotificationsOutline } from "react-icons/io";
-import { BsCheckLg, BsQuestionLg } from "react-icons/bs";
+import { BsQuestionLg } from "react-icons/bs";
 import { AiOutlineUser } from "react-icons/ai";
 import Context from "../Context/Context";
 import Faq from "../Screen/Faq";
-import Portfolio from "../Screen/Portfolio";
+import logo from "../img/logo.png";
+import pg from "../img/playground.png";
 
 const Nav = ({ checkUser }) => {
   const history = useNavigate();
@@ -23,10 +24,10 @@ const Nav = ({ checkUser }) => {
       <div className="absolute">
         <Faq modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
       </div>
-      <div className="bg-navyBlue text-grey flex items-center py-1 justify-between border-b border-gray-500">
+      <div className="bg-navyBlue text-grey flex items-center py-1.5 justify-between border-b border-gray-500">
         <img
-          src="/logo.png"
-          className="w-[15.5vw] ml-1 cursor-pointer"
+          src={logo}
+          className="w-[15.75vw] ml-1 cursor-pointer"
           onClick={(e) => {
             e.preventDefault();
             history("/home");
@@ -57,7 +58,8 @@ const Nav = ({ checkUser }) => {
               className="ml-2 border p-1.5 rounded-2xl cursor-pointer"
             />
             <img
-              src="/playground.png"
+              src={pg}
+              alt={pg}
               onClick={(e) => {
                 e.preventDefault();
                 history("/playground");
@@ -163,6 +165,7 @@ const Block = ({ data }) => {
         <div className="flex items-center">
           <img
             className="w-[7vh] h-[7vh] object-cover object-center rounded-full"
+            alt="Img"
             src={
               data?.profile
                 ? data?.profile
