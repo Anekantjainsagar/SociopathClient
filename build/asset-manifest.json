@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SociopathClient/static/css/main.e2f01c54.css",
-    "main.js": "/SociopathClient/static/js/main.bd9de905.js",
-    "static/media/logo.png": "/SociopathClient/static/media/logo.9d9fa9c47ff9aac94951.png",
-    "static/media/logoText.png": "/SociopathClient/static/media/logoText.2192fdbda97560a1b825.png",
-    "static/media/playground.png": "/SociopathClient/static/media/playground.59146bb66b3c589b001f.png",
-    "index.html": "/SociopathClient/index.html",
-    "main.e2f01c54.css.map": "/SociopathClient/static/css/main.e2f01c54.css.map",
-    "main.bd9de905.js.map": "/SociopathClient/static/js/main.bd9de905.js.map"
+    "main.css": "/static/css/main.e2f01c54.css",
+    "main.js": "/static/js/main.61d0bb7f.js",
+    "static/media/logo.png": "/static/media/logo.9d9fa9c47ff9aac94951.png",
+    "static/media/logoText.png": "/static/media/logoText.2192fdbda97560a1b825.png",
+    "static/media/playground.png": "/static/media/playground.59146bb66b3c589b001f.png",
+    "index.html": "/index.html",
+    "main.e2f01c54.css.map": "/static/css/main.e2f01c54.css.map",
+    "main.61d0bb7f.js.map": "/static/js/main.61d0bb7f.js.map"
   },
   "entrypoints": [
     "static/css/main.e2f01c54.css",
-    "static/js/main.bd9de905.js"
+    "static/js/main.61d0bb7f.js"
   ]
 }
