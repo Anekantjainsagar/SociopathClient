@@ -34,7 +34,7 @@ const Feed = () => {
           />
         </div>
       </div>
-      <div className="overflow-y-scroll h-[76vh]">
+      <div className="overflow-y-scroll h-[83.5vh]">
         {addPost ? (
           <div className="mx-2 flex flex-col justify-center items-center">
             <input

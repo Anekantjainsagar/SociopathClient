@@ -3,7 +3,7 @@ import { results } from "./newsData";
 
 const TechDates = () => {
   return (
-    <div className="bg-navyBlue h-[45vh] m-1 text-grey w-[18vw] py-2 rounded-md flex flex-col justify-center items-center">
+    <div className="bg-navyBlue h-[55vh] m-1 text-grey w-[18vw] py-2 rounded-md flex flex-col justify-center items-center">
       <h1 className="text-xl font-semibold pb-1">TechDates</h1>
       <div className="overflow-y-scroll">
         {results?.articles.map((e, i) => {

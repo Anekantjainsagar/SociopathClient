@@ -7,7 +7,7 @@ import Portfolio from "../Screen/Portfolio";
 const TechDates = () => {
   const context = useContext(Context);
   return (
-    <div className="bg-navyBlue h-[43.5vh] m-1 text-grey w-[18vw] py-2 rounded-md flex flex-col justify-center items-center">
+    <div className="bg-navyBlue h-[36vh] m-1 text-grey w-[18vw] py-2 rounded-md flex flex-col justify-center items-center">
       <h1 className="text-xl font-semibold pb-1">Catch A Match</h1>
       <div className="overflow-y-scroll h-[95%]">
         {context?.allUsers.map((e) => {

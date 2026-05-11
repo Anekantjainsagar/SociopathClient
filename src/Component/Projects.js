@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="bg-navyBlue m-1 text-grey w-[18vw] py-2 rounded-md flex flex-col justify-center items-center">
       <h1 className="text-lg font-semibold">Projects</h1>
-      <div className="text-center h-[23.5vh] overflow-y-scroll w-[100%] px-1">
+      <div className="text-center h-[51vh] overflow-y-scroll w-[100%] px-1">
         <Block />
         <Block />
         <Block />

@@ -8,7 +8,7 @@ import CatchAMatch from "../Component/CatchAMatch";
 
 const Main = () => {
   return (
-    <div className="flex justify-between bg-cgreen h-[90vh] overflow-y-hidden">
+    <div className="flex justify-between bg-cgreen h-[100vh] overflow-y-hidden">
       <div>
         <Profile />
         <Skills />
